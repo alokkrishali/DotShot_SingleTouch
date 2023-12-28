@@ -1,0 +1,13 @@
+Library
+UserSettings
+Temp
+Logs
+.vs
+Assembly
+Android Build
+*.apk
+obj
+*.sln
+*.csproj
+*.vsconfig
+Packages
