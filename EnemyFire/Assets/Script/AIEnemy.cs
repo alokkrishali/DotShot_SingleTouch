@@ -22,6 +22,10 @@ public class AIEnemy : MonoBehaviour {
         rd2D = GetComponent<Rigidbody2D>();
     }
 	
+    public void SetStationary()
+    {
+        rd2D.velocity = Vector2.zero;
+    }
     public void SetObjectAt(Vector3 pos, float speed, AnimationCurve movingPath, int index)
     {
         thisTransform.position = currentPos = StartingPoint = pos;
@@ -38,8 +42,9 @@ public class AIEnemy : MonoBehaviour {
         rd2D.freezeRotation = false;
         IsMoving = true;
     }
-    void ResetPos()
+    public void ResetPos()
     {
+        IsMoving = false;
         childController.GetsetCallBack(AiIndex);
         rd2D.velocity = Vector3.zero;
         thisTransform.eulerAngles = Vector3.zero;
@@ -58,7 +63,6 @@ public class AIEnemy : MonoBehaviour {
             thisTransform.position = new Vector3((currentPos.x - MovementSpeed * speedFactor), currentPos.y + 2*temp, currentPos.z);
             if (thisTransform.position.x < -EndMovingRange)
             {
-                IsMoving = false;
                 ResetPos();
             }
         }

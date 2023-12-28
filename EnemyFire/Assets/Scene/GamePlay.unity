@@ -529,7 +529,7 @@ GameObject:
   - component: {fileID: 680136700}
   - component: {fileID: 680136701}
   - component: {fileID: 680136703}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AI_3
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -558,7 +558,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -660,7 +660,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &680136703
 Animator:
   serializedVersion: 3
@@ -1119,7 +1119,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1540,7 +1540,7 @@ GameObject:
   - component: {fileID: 1583948758}
   - component: {fileID: 1583948759}
   - component: {fileID: 1583948761}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AI_1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1569,7 +1569,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1671,7 +1671,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &1583948761
 Animator:
   serializedVersion: 3
@@ -1702,7 +1702,7 @@ GameObject:
   - component: {fileID: 1601088006}
   - component: {fileID: 1601088007}
   - component: {fileID: 1601088009}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AI_2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1731,7 +1731,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1833,7 +1833,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &1601088009
 Animator:
   serializedVersion: 3
@@ -1864,7 +1864,7 @@ GameObject:
   - component: {fileID: 1753368376}
   - component: {fileID: 1753368378}
   - component: {fileID: 1753368377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AI_5
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1930,7 +1930,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1753368379
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1940,7 +1940,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2026,7 +2026,7 @@ GameObject:
   - component: {fileID: 1786784861}
   - component: {fileID: 1786784863}
   - component: {fileID: 1786784862}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AI_4
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2092,7 +2092,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1786784864
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2102,7 +2102,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

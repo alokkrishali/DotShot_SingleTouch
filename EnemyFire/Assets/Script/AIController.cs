@@ -41,6 +41,7 @@ public class AIController : MonoBehaviour {
 
     internal void GetsetCallBack(int index)
     {
+        _aiEnemy[index].SetStationary();
         _aiEnemy[index].SetObjectAt(EnemyGenerationPoint[Random.Range(0,_aiEnemy.Count)], Random.Range(3,7), movementCurve[Random.Range(0, _aiEnemy.Count - 1)], index);
     }
 

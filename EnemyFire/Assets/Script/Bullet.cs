@@ -24,15 +24,18 @@ public class Bullet : MonoBehaviour {
 
     }
 
-    private void OnTiggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
+            Debug.Log(" -- ---- -- " + collision.gameObject.name);
             fireSystem.FillBulletInQueue(this);
             BulletHitEffect();
             DeactiveBullet();
+            collision.gameObject.GetComponent<AIEnemy>().ResetPos();
         }
     }
+
     
     public void BulletHitEffect()
     {
